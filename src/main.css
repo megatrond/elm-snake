@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: #293c4b;
+}
+
+.map {
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid #efefef;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.tile {
+    border: 1px solid #efefef;
+    width: 25px;
+    height: 25px;
+}
+.snake {
+    background-color: lightblue;
+}
+.food {
+    background-color: blue;
+}
